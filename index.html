@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoveStrategist - Emotional Intelligence & Relationship Insight</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF69B4',
+            secondary: '#FFB6C1',
+            accent: '#FF85C1',
+            dark: '#4A154B',
+            light: '#FFF5F8'
+          },
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+      }
+      .hover-float {
+        transition: transform 0.3s ease;
+      }
+      .hover-float:hover {
+        transform: translateY(-5px) scale(1.02);
+      }
+      .btn-bounce {
+        transition: transform 0.2s ease;
+      }
+      .btn-bounce:hover {
+        transform: scale(1.05);
+      }
+      .btn-bounce:active {
+        transform: scale(0.98);
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-inter bg-light text-dark">
+
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="flex items-center gap-2">
+        <i class="fa fa-heart text-primary text-2xl"></i>
+        <span class="font-bold text-xl">LoveStrategist</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#about" class="hover:text-accent transition-colors">About</a>
+        <a href="#features" class="hover:text-accent transition-colors">Features</a>
+        <a href="#download" class="hover:text-accent transition-colors">Download</a>
+        <a href="https://sites.google.com/view/lovestrategist-privacy" class="hover:text-accent transition-colors">Privacy</a>
+      </div>
+      <button class="md:hidden text-xl">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-28 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-primary/10 to-white">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2 space-y-6">
+          <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight text-shadow">
+            LoveStrategist <br>
+            <span class="text-accent">Emotional Insight Tool</span>
+          </h1>
+          <p class="text-lg md:text-xl text-gray-600 max-w-lg">
+            LoveStrategistApp is an advanced emotional relationship analysis tool that integrates psychology, Eastern zodiacal culture, and large AI models.  
+            It helps users explore relationships and enhance self-awareness through scientific evaluation and intelligent interaction.
+          </p>
+          <div class="flex flex-wrap gap-4 pt-4">
+            <a href="https://play.google.com/store/apps/details?id=com.love.strategist.app" target="_blank" class="btn-bounce bg-primary hover:bg-primary/90 text-white font-medium px-8 py-3 rounded-full flex items-center gap-2 shadow-lg">
+              <i class="fa fa-download"></i>
+              <span>Download on Google Play</span>
+            </a>
+            <a href="#features" class="btn-bounce bg-white hover:bg-gray-100 text-dark font-medium px-8 py-3 rounded-full flex items-center gap-2 shadow-md border border-gray-200">
+              <i class="fa fa-heartbeat"></i>
+              <span>Explore Features</span>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-primary/30 rounded-3xl rotate-3"></div>
+            <img src="https://picsum.photos/seed/loveai/600/400" alt="LoveStrategist app interface" class="relative z-10 rounded-2xl shadow-2xl hover-float">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="container mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">About LoveStrategist</h2>
+        <p class="text-gray-600 text-lg">Blending psychology and cultural insight, LoveStrategist offers you a new way to understand intimate relationships.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow hover-float">
+          <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6">
+            <i class="fa fa-comments text-2xl text-primary"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Psychology Meets AI</h3>
+          <p class="text-gray-600">
+            Based on psychological scales and ChatGPT behavior models, LoveStrategist accurately evaluates your relationship dynamics and psychological trends.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow hover-float">
+          <div class="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-6">
+            <i class="fa fa-user-circle text-2xl text-accent"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Cross-Cultural Insight</h3>
+          <p class="text-gray-600">
+            Combining Eastern and Western psychology with the Chinese zodiac, it provides personalized and actionable emotional insights and compatibility advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 md:py-24 bg-gradient-to-b from-white to-primary/5">
+    <div class="container mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-4">Core Features</h2>
+        <p class="text-gray-600 text-lg">Key Highlights and Advantages</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover-float">
+          <h3 class="text-xl font-semibold mb-3 text-primary">💞 Love Compatibility Test</h3>
+          <p class="text-gray-600">
+            Using psychological scales, behavioral analysis, and cross-cultural psychology research, LoveStrategist identifies potential conflicts and offers relationship advice based on the Chinese zodiac.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover-float">
+          <h3 class="text-xl font-semibold mb-3 text-accent">💍 Relationship Stability Assessment</h3>
+          <p class="text-gray-600">
+            By combining scenario-based questions with ChatGPT's behavioral prediction models, it evaluates loyalty risks and provides psychology-driven communication strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="py-16 md:py-24 bg-primary/10">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-6">Start Your Emotional Journey</h2>
+      <p class="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
+        Download LoveStrategist and unlock emotional insights powered by science and AI.  
+        Understand yourself and others to build deeper, more meaningful relationships.
+      </p>
+      <a href="https://play.google.com/store/apps/details?id=com.love.strategist.app" target="_blank" class="btn-bounce inline-block bg-primary hover:bg-primary/90 text-white font-bold px-10 py-4 rounded-full text-lg shadow-xl flex items-center gap-3 mx-auto">
+        <i class="fa fa-android text-2xl"></i>
+        <span>Download on Google Play</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="flex items-center gap-2">
+          <i class="fa fa-heart text-primary text-2xl"></i>
+          <span class="font-bold text-xl">LoveStrategist</span>
+        </div>
+        <div class="flex flex-wrap justify-center gap-6">
+          <a href="#about" class="hover:text-primary transition-colors">About</a>
+          <a href="#features" class="hover:text-primary transition-colors">Features</a>
+          <a href="#download" class="hover:text-primary transition-colors">Download</a>
+          <a id="privacy" href="https://sites.google.com/view/lovestrategist-privacy" target="_blank" class="hover:text-primary transition-colors">Privacy Policy</a>
+        </div>
+        <div class="text-gray-400 text-sm">
+          &copy; 2025 LoveStrategist. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') !== "#") {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+        nav.classList.add('py-2', 'shadow');
+        nav.classList.remove('py-3');
+      } else {
+        nav.classList.add('py-3');
+        nav.classList.remove('py-2', 'shadow');
+      }
+    });
+  </script>
+
+</body>
+</html>

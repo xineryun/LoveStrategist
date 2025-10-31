@@ -1,5 +1,6 @@
 google.com, pub-2438306598297621, DIRECT, f08c47fec0942fa0
 google.com, pub-7932303959165880, DIRECT, f08c47fec0942fa0
+facebook.com, 1488450712360358, DIRECT, c3e20eee3f780d68
 MANAGERDOMAIN=tradplusad.com
 tradplusad.com,60b72667c7235a68,DIRECT
 pubmatic.com, 160692, RESELLER, 5d62403b186f2ace

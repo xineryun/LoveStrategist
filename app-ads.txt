@@ -795,6 +795,7 @@ smilewanted.com,4137,RESELLER
 bidence.com,90863d4466f10fe4a352a7afbde0d54e,RESELLER
 flashb.id,c9e5470c-e78f-594d-99c6-1fa992fa0047,RESELLER
 appnexus.com,11701,RESELLER
+media.net,8CU7B073B,RESELLER
 
 #premiumads
 premiumads.net, 21995, DIRECT

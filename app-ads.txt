@@ -1329,3 +1329,11 @@ rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
 #equativ.com
 smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
+
+#onetag.com
+onetag.com, 952b237bf74c1ff, DIRECT
+onetag.com, 952b237bf74c1ff-OB, DIRECT
+appnexus.com, 13099, RESELLER
+pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
+video.unrulymedia.com, 586616193, RESELLER
